@@ -1,6 +1,6 @@
 # ratelimiter-demo
 
-RateLimit限流测试
+RateLimiter限流测试
 
 - 注解
 
