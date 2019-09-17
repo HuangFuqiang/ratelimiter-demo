@@ -21,7 +21,7 @@ public class RateLimiterAop {
     @Autowired
     private HttpServletResponse response;
 
-    private RateLimiter rateLimiter = RateLimiter.create(10); //比如说，我这里设置"并发数"为5
+    private RateLimiter rateLimiter = RateLimiter.create(10); //比如说，我这里设置"并发数"为10
 
     @Pointcut("@annotation(com.code.ratelimiterdemo.annotation.RateLimiterAspect)")
     public void serviceLimit() {
